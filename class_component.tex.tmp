@@ -1,0 +1,181 @@
+\doxysection{Component Class Reference}
+\hypertarget{class_component}{}\label{class_component}\index{Component@{Component}}
+
+
+Inheritance diagram for Component\+:
+% FIG 0
+
+
+Collaboration diagram for Component\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\begin{DoxyCompactList}\small\item\em Update function to be implemented by derived classes. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\begin{DoxyCompactList}\small\item\em Update function to be implemented by derived classes. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\item 
+virtual void \mbox{\hyperlink{class_component_adb49d78084857d8a9f7773a102faa82a}{Update}} (float delta\+Time)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Update function to be implemented by derived classes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & The time elapsed since the last update. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [3/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [4/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [5/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [6/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [7/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [8/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [9/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Update function to be implemented by derived classes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & The time elapsed since the last update. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [10/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+\Hypertarget{class_component_adb49d78084857d8a9f7773a102faa82a}\label{class_component_adb49d78084857d8a9f7773a102faa82a} 
+\index{Component@{Component}!Update@{Update}}
+\index{Update@{Update}!Component@{Component}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [11/11]}}
+{\footnotesize\ttfamily virtual void Component\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}, \mbox{\hyperlink{class_movement_component_a07ae5da4482d23f9ef87857675202d2b}{Movement\+Component}}, and \mbox{\hyperlink{class_jump_component_a3e5e32b635495ff06c65f26ac96966a7}{Jump\+Component}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/bindings.\+cpp\item 
+v10.\+cpp\item 
+v11.\+cpp\item 
+v12.\+cpp\item 
+v13.\+cpp\item 
+v14.\+cpp\item 
+v15.\+cpp\item 
+v16.\+cpp\item 
+v17.\+cpp\item 
+v8.\+cpp\item 
+v9.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,935 @@
+\doxysection{SDLGraphics\+Program Class Reference}
+\hypertarget{class_s_d_l_graphics_program}{}\label{class_s_d_l_graphics_program}\index{SDLGraphicsProgram@{SDLGraphicsProgram}}
+
+
+Collaboration diagram for SDLGraphics\+Program\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}{SDLGraphics\+Program}} (int w, int h)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{class_s_d_l_graphics_program}{SDLGraphics\+Program}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_s_d_l_graphics_program_a2504412e7eaa011a1116447eb4d5ec00}{\texorpdfstring{$\sim$}{\string~}\+SDLGraphics\+Program}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{class_s_d_l_graphics_program}{SDLGraphics\+Program}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}{init\+GL}} ()
+\begin{DoxyCompactList}\small\item\em Initializes Open\+GL. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}{clear}} ()
+\begin{DoxyCompactList}\small\item\em Clears the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}{flip}} ()
+\begin{DoxyCompactList}\small\item\em Flips to the new buffer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}{delay}} (int milliseconds)
+\begin{DoxyCompactList}\small\item\em Delays rendering. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}{loop}} ()
+\begin{DoxyCompactList}\small\item\em Main loop that runs indefinitely. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}{get\+SDLWindow}} ()
+\begin{DoxyCompactList}\small\item\em Gets a pointer to the SDL window. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}{Draw\+Rectangle}} (int x, int y, int w, int h)
+\begin{DoxyCompactList}\small\item\em Draws a simple rectangle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}{Poll}} ()
+\begin{DoxyCompactList}\small\item\em Polls events. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}{Is\+Active\+Engine}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the engine is active. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}{Transfer\+Text\+To\+Initialization}} (std\+::string text\+Link)
+\begin{DoxyCompactList}\small\item\em Transfers text to initialization. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}{Initialize\+Ground}} (std\+::string image\+Link)
+\begin{DoxyCompactList}\small\item\em Initializes ground with a single image. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}{Initialize\+Character}} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\begin{DoxyCompactList}\small\item\em Initializes characters with a list of images. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}{Initialize\+Obstacles}} (std\+::string image\+Link)
+\begin{DoxyCompactList}\small\item\em Initializes obstacles with a single image. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}{Get\+Renderer}} () const
+\begin{DoxyCompactList}\small\item\em Gets the SDL renderer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}{Get\+Screen\+Height}} () const
+\begin{DoxyCompactList}\small\item\em Gets the screen height. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}{Get\+Screen\+Width}} () const
+\begin{DoxyCompactList}\small\item\em Gets the screen width. \end{DoxyCompactList}\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ae9d897b8a3ede7d5b05f6789e387132b}\label{class_s_d_l_graphics_program_ae9d897b8a3ede7d5b05f6789e387132b} 
+void {\bfseries Transfer\+Text\+To\+Initialization} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+void {\bfseries Transfer\+Text\+To\+Initialization} (std\+::string text\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+void {\bfseries Transfer\+Text\+To\+Initialization} (std\+::string text\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+void {\bfseries Transfer\+Text\+To\+Initialization} (std\+::string text\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+void {\bfseries Transfer\+Text\+To\+Initialization} (std\+::string text\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+void {\bfseries Transfer\+Text\+To\+Initialization} (std\+::string text\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+void {\bfseries Transfer\+Text\+To\+Initialization} (std\+::string text\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+void {\bfseries Transfer\+Text\+To\+Initialization} (std\+::string text\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_aff330456d6403f49cd41ab8a651fc60f}\label{class_s_d_l_graphics_program_aff330456d6403f49cd41ab8a651fc60f} 
+void {\bfseries Initialize\+Ground} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ae261142e2df2112125ee5fd90956f53e}\label{class_s_d_l_graphics_program_ae261142e2df2112125ee5fd90956f53e} 
+void {\bfseries Initialize\+Character} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac791a87d6b9e4c9a076e5ed68f66f856}\label{class_s_d_l_graphics_program_ac791a87d6b9e4c9a076e5ed68f66f856} 
+void {\bfseries Initialize\+Obstacles} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+{\bfseries SDLGraphics\+Program} (int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+bool {\bfseries init\+GL} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+void {\bfseries clear} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+void {\bfseries flip} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+void {\bfseries delay} (int milliseconds)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+void {\bfseries loop} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} {\bfseries get\+SDLWindow} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+void {\bfseries Draw\+Rectangle} (int x, int y, int w, int h)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+void {\bfseries Poll} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+bool {\bfseries Is\+Active\+Engine} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ae9d897b8a3ede7d5b05f6789e387132b}\label{class_s_d_l_graphics_program_ae9d897b8a3ede7d5b05f6789e387132b} 
+void {\bfseries Transfer\+Text\+To\+Initialization} ()
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+void {\bfseries Initialize\+Ground} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+void {\bfseries Initialize\+Character} (std\+::vector$<$ std\+::string $>$ my\+String\+List)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+void {\bfseries Initialize\+Obstacles} (std\+::string image\+Link)
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} {\bfseries Get\+Renderer} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+int {\bfseries Get\+Screen\+Height} () const
+\item 
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+int {\bfseries Get\+Screen\+Width} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b}\label{class_s_d_l_graphics_program_a976683178e086cd2a1a801fd9c501a7b} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{SDLGraphicsProgram()}{SDLGraphicsProgram()}}
+{\footnotesize\ttfamily SDLGraphics\+Program\+::\+SDLGraphics\+Program (\begin{DoxyParamCaption}\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{class_s_d_l_graphics_program}{SDLGraphics\+Program}. 
+
+Initializes ground tiles in the game.
+
+
+\begin{DoxyParams}{Parameters}
+{\em w} & The width of the window. \\
+\hline
+{\em h} & The height of the window.\\
+\hline
+\end{DoxyParams}
+This function creates and initializes ground tiles in the game world. It loads a ground tile image from the given image link using the \doxylink{class_resource_manager}{Resource\+Manager}, determines their position and dimensions, and initializes the necessary components for their movement.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+Link} & The path to the image file for the ground tiles. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 1
+\Hypertarget{class_s_d_l_graphics_program_a2504412e7eaa011a1116447eb4d5ec00}\label{class_s_d_l_graphics_program_a2504412e7eaa011a1116447eb4d5ec00} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!````~SDLGraphicsProgram@{\texorpdfstring{$\sim$}{\string~}SDLGraphicsProgram}}
+\index{````~SDLGraphicsProgram@{\texorpdfstring{$\sim$}{\string~}SDLGraphicsProgram}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}SDLGraphicsProgram()}{\string~SDLGraphicsProgram()}}
+{\footnotesize\ttfamily SDLGraphics\+Program\+::\texorpdfstring{$\sim$}{\string~}\+SDLGraphics\+Program (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor for \doxylink{class_s_d_l_graphics_program}{SDLGraphics\+Program}. 
+
+Properly shutdown SDL and destroy initialized objects.
+
+This function is responsible for properly shutting down SDL and destroying any initialized objects such as windows. It calls SDL\+\_\+\+Destroy\+Window to destroy the game window and sets the window pointer to NULL to ensure it points to nothing. Finally, it calls SDL\+\_\+\+Quit to quit SDL subsystems. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35}\label{class_s_d_l_graphics_program_a56942edfd4c5f45334ba55adb2558d35} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!clear@{clear}}
+\index{clear@{clear}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears the screen. 
+
+This function sets the render draw color to a light gray and clears the screen using SDL\+\_\+\+Render\+Clear. Here is the caller graph for this function\+:
+% FIG 2
+\Hypertarget{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba}\label{class_s_d_l_graphics_program_a299c62853b3f28fc3930880fc4c128ba} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!delay@{delay}}
+\index{delay@{delay}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{delay()}{delay()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::delay (\begin{DoxyParamCaption}\item[{int}]{milliseconds }\end{DoxyParamCaption})}
+
+
+
+Delays rendering. 
+
+Delays the program execution for a specified number of milliseconds.
+
+
+\begin{DoxyParams}{Parameters}
+{\em milliseconds} & The number of milliseconds to delay rendering.\\
+\hline
+\end{DoxyParams}
+This function pauses the execution of the program for the specified number of milliseconds using SDL\+\_\+\+Delay.
+
+
+\begin{DoxyParams}{Parameters}
+{\em milliseconds} & The number of milliseconds to delay. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb}\label{class_s_d_l_graphics_program_a16d2650fd0229073b5de1922fa0156fb} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!DrawRectangle@{DrawRectangle}}
+\index{DrawRectangle@{DrawRectangle}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{DrawRectangle()}{DrawRectangle()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::\+Draw\+Rectangle (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{w,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+
+
+Draws a simple rectangle. 
+
+Draws a rectangle on the screen.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x-\/coordinate of the top-\/left corner of the rectangle. \\
+\hline
+{\em y} & The y-\/coordinate of the top-\/left corner of the rectangle. \\
+\hline
+{\em w} & The width of the rectangle. \\
+\hline
+{\em h} & The height of the rectangle.\\
+\hline
+\end{DoxyParams}
+This function draws a rectangle on the screen using the specified parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x-\/coordinate of the top-\/left corner of the rectangle. \\
+\hline
+{\em y} & The y-\/coordinate of the top-\/left corner of the rectangle. \\
+\hline
+{\em w} & The width of the rectangle. \\
+\hline
+{\em h} & The height of the rectangle. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3}\label{class_s_d_l_graphics_program_a1b2040042b2fc4bda09f365d7885e9a3} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!flip@{flip}}
+\index{flip@{flip}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{flip()}{flip()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::flip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Flips to the new buffer. 
+
+Flips the render buffer.
+
+This function presents the rendered frame to the screen by calling SDL\+\_\+\+Render\+Present. \Hypertarget{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537}\label{class_s_d_l_graphics_program_a8977b89f6e228871b01cedce197d5537} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!GetRenderer@{GetRenderer}}
+\index{GetRenderer@{GetRenderer}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{GetRenderer()}{GetRenderer()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} SDLGraphics\+Program\+::\+Get\+Renderer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the SDL renderer. 
+
+\begin{DoxyReturn}{Returns}
+SDL\+\_\+\+Renderer\texorpdfstring{$\ast$}{*} A pointer to the SDL renderer. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\Hypertarget{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75}\label{class_s_d_l_graphics_program_a4e977fad84fe3f0a836f5c4140fd0d75} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!GetScreenHeight@{GetScreenHeight}}
+\index{GetScreenHeight@{GetScreenHeight}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{GetScreenHeight()}{GetScreenHeight()}}
+{\footnotesize\ttfamily int SDLGraphics\+Program\+::\+Get\+Screen\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the screen height. 
+
+\begin{DoxyReturn}{Returns}
+int The screen height. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 4
+\Hypertarget{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac}\label{class_s_d_l_graphics_program_a2fda88b6c7cfa74dd9eb60ede67343ac} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!GetScreenWidth@{GetScreenWidth}}
+\index{GetScreenWidth@{GetScreenWidth}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{GetScreenWidth()}{GetScreenWidth()}}
+{\footnotesize\ttfamily int SDLGraphics\+Program\+::\+Get\+Screen\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the screen width. 
+
+\begin{DoxyReturn}{Returns}
+int The screen width. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 5
+\Hypertarget{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f}\label{class_s_d_l_graphics_program_a42e9554ec5b497551530bd5a8ca9585f} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!getSDLWindow@{getSDLWindow}}
+\index{getSDLWindow@{getSDLWindow}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{getSDLWindow()}{getSDLWindow()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} SDLGraphics\+Program\+::get\+SDLWindow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets a pointer to the SDL window. 
+
+Returns a pointer to the SDL window.
+
+\begin{DoxyReturn}{Returns}
+SDL\+\_\+\+Window\texorpdfstring{$\ast$}{*} A pointer to the SDL window.
+\end{DoxyReturn}
+This function returns a pointer to the SDL window associated with the \doxylink{class_s_d_l_graphics_program}{SDLGraphics\+Program}.
+
+\begin{DoxyReturn}{Returns}
+A pointer to the SDL window. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 6
+\Hypertarget{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9}\label{class_s_d_l_graphics_program_a6cc65adc2dde4f2346839685c4e43ea9} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!initGL@{initGL}}
+\index{initGL@{initGL}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{initGL()}{initGL()}}
+{\footnotesize\ttfamily bool SDLGraphics\+Program\+::init\+GL (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes Open\+GL. 
+
+Initializes Open\+GL and sets up shaders.
+
+\begin{DoxyReturn}{Returns}
+bool True if initialization is successful, false otherwise.
+\end{DoxyReturn}
+This function initializes Open\+GL and sets up any shaders required for rendering. It returns a boolean indicating whether the initialization was successful.
+
+\begin{DoxyReturn}{Returns}
+True if Open\+GL initialization was successful, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40}\label{class_s_d_l_graphics_program_a37f3daea1e5db840b5e616380b5caf40} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!InitializeCharacter@{InitializeCharacter}}
+\index{InitializeCharacter@{InitializeCharacter}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{InitializeCharacter()}{InitializeCharacter()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::\+Initialize\+Character (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{my\+String\+List }\end{DoxyParamCaption})}
+
+
+
+Initializes characters with a list of images. 
+
+Initializes character sprites in the game.
+
+
+\begin{DoxyParams}{Parameters}
+{\em my\+String\+List} & The list of image file paths.\\
+\hline
+\end{DoxyParams}
+This function creates and initializes character sprites in the game world. It loads character images from the given list of image links using the \doxylink{class_resource_manager}{Resource\+Manager}, determines their position and dimensions, and initializes the necessary components for their movement and animation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em my\+String\+List} & A vector containing paths to the character image files. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\Hypertarget{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db}\label{class_s_d_l_graphics_program_a8ff8b9d8e200159125070107c3b2b9db} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!InitializeGround@{InitializeGround}}
+\index{InitializeGround@{InitializeGround}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{InitializeGround()}{InitializeGround()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::\+Initialize\+Ground (\begin{DoxyParamCaption}\item[{std\+::string}]{image\+Link }\end{DoxyParamCaption})}
+
+
+
+Initializes ground with a single image. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+Link} & The path to the image file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 9
+Here is the caller graph for this function\+:
+% FIG 10
+\Hypertarget{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037}\label{class_s_d_l_graphics_program_ac022d90eea4dd356fd1dca8803da8037} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!InitializeObstacles@{InitializeObstacles}}
+\index{InitializeObstacles@{InitializeObstacles}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{InitializeObstacles()}{InitializeObstacles()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::\+Initialize\+Obstacles (\begin{DoxyParamCaption}\item[{std\+::string}]{image\+Link }\end{DoxyParamCaption})}
+
+
+
+Initializes obstacles with a single image. 
+
+Initializes obstacles in the game.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+Link} & The path to the image file.\\
+\hline
+\end{DoxyParams}
+This function creates and initializes obstacles in the game world. It loads an obstacle image from the given image link using the \doxylink{class_resource_manager}{Resource\+Manager}, determines its position and dimensions, and initializes the necessary components for its movement.
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+Link} & The path to the image file for the obstacles. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 11
+Here is the caller graph for this function\+:
+% FIG 12
+\Hypertarget{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38}\label{class_s_d_l_graphics_program_a3c139c9e9e75ee63099e70702178fd38} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!IsActiveEngine@{IsActiveEngine}}
+\index{IsActiveEngine@{IsActiveEngine}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{IsActiveEngine()}{IsActiveEngine()}}
+{\footnotesize\ttfamily bool SDLGraphics\+Program\+::\+Is\+Active\+Engine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if the engine is active. 
+
+Checks if the game engine is active.
+
+\begin{DoxyReturn}{Returns}
+bool True if the engine is active, false otherwise.
+\end{DoxyReturn}
+This function returns the value of the quit flag, indicating whether the game engine is still active or if it should be shut down.
+
+\begin{DoxyReturn}{Returns}
+True if the game engine is active, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff}\label{class_s_d_l_graphics_program_afdca0d5835b36a1b18d7eac69056c6ff} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!loop@{loop}}
+\index{loop@{loop}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{loop()}{loop()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main loop that runs indefinitely. 
+
+Main loop of the \doxylink{class_s_d_l_graphics_program}{SDLGraphics\+Program}.
+
+This function represents the main loop of the \doxylink{class_s_d_l_graphics_program}{SDLGraphics\+Program}. It continuously polls events from the event queue using SDL\+\_\+\+Poll\+Event and handles the quit event to terminate the program. It also enables text input using SDL\+\_\+\+Start\+Text\+Input and disables it before exiting the loop. The loop runs until the quit flag is set to true. Here is the call graph for this function\+:
+% FIG 13
+\Hypertarget{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4}\label{class_s_d_l_graphics_program_a5b78e5686035e0f3c66d0a09876651b4} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!Poll@{Poll}}
+\index{Poll@{Poll}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{Poll()}{Poll()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::\+Poll (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Polls events. 
+
+Polls events from the SDL event queue.
+
+This function continuously polls events from the SDL event queue until the quit flag is set to true. It processes various events such as quitting the application, key presses, and state transitions based on the current state of the game. Here is the call graph for this function\+:
+% FIG 14
+\Hypertarget{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967}\label{class_s_d_l_graphics_program_a1dd00cec7e43cf3d966e1b3ba90cc967} 
+\index{SDLGraphicsProgram@{SDLGraphicsProgram}!TransferTextToInitialization@{TransferTextToInitialization}}
+\index{TransferTextToInitialization@{TransferTextToInitialization}!SDLGraphicsProgram@{SDLGraphicsProgram}}
+\doxysubsubsection{\texorpdfstring{TransferTextToInitialization()}{TransferTextToInitialization()}}
+{\footnotesize\ttfamily void SDLGraphics\+Program\+::\+Transfer\+Text\+To\+Initialization (\begin{DoxyParamCaption}\item[{std\+::string}]{text\+Link }\end{DoxyParamCaption})}
+
+
+
+Transfers text to initialization. 
+
+Transfers text from a file to initialize game elements.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text\+Link} & The path to the text file.\\
+\hline
+\end{DoxyParams}
+This function reads text from a file specified by the given link and extracts information to initialize ground tiles, character sprites, and obstacles in the game world. It reads lines from the file, identifying specific characters to determine the type of data to extract.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text\+Link} & The path to the text file containing initialization data. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 15
+Here is the caller graph for this function\+:
+% FIG 16
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/bindings.\+cpp\item 
+v10.\+cpp\item 
+v11.\+cpp\item 
+v12.\+cpp\item 
+v13.\+cpp\item 
+v14.\+cpp\item 
+v15.\+cpp\item 
+v16.\+cpp\item 
+v17.\+cpp\item 
+v8.\+cpp\item 
+v9.\+cpp\end{DoxyCompactItemize}

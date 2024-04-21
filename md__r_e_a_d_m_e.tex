@@ -1,0 +1,46 @@
+\chapter{Bare Minimum Instructions}
+\hypertarget{md__r_e_a_d_m_e}{}\label{md__r_e_a_d_m_e}\index{Bare Minimum Instructions@{Bare Minimum Instructions}}
+\label{md__r_e_a_d_m_e_autotoc_md0}%
+\Hypertarget{md__r_e_a_d_m_e_autotoc_md0}%
+
+\begin{DoxyEnumerate}
+\item Run the appropriate build script for your operating system\+:
+\begin{DoxyItemize}
+\item Mac\+: {\ttfamily python macbuild.\+py}
+\item Linux\+: {\ttfamily python linuxbuild.\+py}
+\item Windows {\ttfamily sh mingw64build.\+sh}
+\item If the script works properly, it will generate {\ttfamily mygameengine.\+pyd} on Windows or a {\ttfamily mygameengine.\+so} file on linux \& mac.
+\begin{DoxyItemize}
+\item If the script does not work properly, you may need to do a little bit of searching to figure out how to setup pybind. I have given you a headstart to setup pybind, and {\itshape it may just work} on some platforms and not so easily for others using different development stacks.
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item Then run the \href{./test.py}{\texttt{ test.\+py}} which uses your engine.
+\begin{DoxyItemize}
+\item Windows\+: {\ttfamily python3.\+6 test.\+py -\/m ./mygameengine.pyd} (Note\+: We are using Python3)
+\item Linux and Mac\+: {\ttfamily python3.\+5 test.\+py -\/m ./mygameengine.so} (Note\+: We are using Python3)
+\end{DoxyItemize}
+\end{DoxyEnumerate}\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{\texorpdfstring{Common Errors with pybind11 setup}{Common Errors with pybind11 setup}}\label{md__r_e_a_d_m_e_autotoc_md1}
+
+\begin{DoxyItemize}
+\item If you get a missing “python.\+h” error message, then you likely do not have python3-\/dev (or python2-\/dev installed).
+\begin{DoxyItemize}
+\item Make sure to install the python development version and associated libraries.
+\item ({\ttfamily sudo apt-\/get install python3-\/dev} for linux)
+\item ({\ttfamily brew install python3-\/dev} for mac or \href{https://stackoverflow.com/questions/41743825/how-to-install-python3-4-dev-for-mac}{\texttt{ https\+://stackoverflow.\+com/questions/41743825/how-\/to-\/install-\/python3-\/4-\/dev-\/for-\/mac}})
+\begin{DoxyItemize}
+\item brew update ; brew install pyenv ; pyenv install 3.\+5.\+0 ; pyenv install 3.\+5-\/dev
+\end{DoxyItemize}
+\item For Min\+GW users
+\begin{DoxyItemize}
+\item pacman -\/S mingw-\/w64-\/x86\+\_\+64-\/python3-\/pip
+\item pip3 install pybind11
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item If you get a ‘module pybind11’ not found, then you need to do the
+\begin{DoxyItemize}
+\item pip3 install pybind11 (If you are using python 3)
+\item or
+\item pip install pybind11
+\end{DoxyItemize}
+\item Finally, check the build scripts to see if the correct version of python is being used (3, 3.\+5, 3.\+6, etc.) 
+\end{DoxyItemize}
